@@ -1,0 +1,9 @@
+[package]
+name = 'TestnetCoins'
+version = '1.0.0'
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "mainnet" }
+
+[addresses]
+testnet_coins="0x3f3dd1c00de505a6622efd632d5848cb83e6b002e1951945dcd061ec632137ba"
